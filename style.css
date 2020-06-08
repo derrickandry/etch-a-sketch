@@ -1,0 +1,93 @@
+.grid {
+  width: 28.1px;
+  height: 27.4px;
+}
+
+button {
+  font-family: Arial;
+  font-size: 20px;
+  border-radius: 12px;
+  padding: 10px;
+  background-color: darkgrey;
+  margin-bottom: 10px;
+  width: 100px;
+}
+
+button:hover {
+  background-color: grey;
+}
+
+.gridContainer {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: grid;
+
+  grid-template-columns: repeat(22, 1fr);
+  grid-template-rows: repeat(16, 1fr);
+  height: 485px;
+  width: 685px;
+  background-color: rgb(229, 238, 229);
+}
+
+.body {
+  background-color: rgba(46, 156, 170, 0.733);
+}
+
+#color {
+  margin-left: 1370px;
+}
+
+#frame {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 575px;
+  width: 785px;
+}
+
+#fish {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+}
+
+#h1 {
+  text-align: center;
+  font-family: "Pangolin";
+  font-size: 75px;
+  color: rgba(236, 211, 100, 0.986);
+  text-shadow: 2px 2px 8px black;
+}
+
+form {
+  margin-left: 1370px;
+}
+
+#width {
+  height: 30px;
+  width: 50px;
+  border-radius: 8px;
+  border-color: black;
+  border-width: 1px;
+  font-size: 20px;
+  display: inline-block;
+}
+#height {
+  height: 30px;
+  width: 50px;
+  border-radius: 8px;
+  border-color: black;
+  border-width: 1px;
+  font-size: 20px;
+  display: inline-block;
+}
+.resDesc {
+  font-size: 20px;
+  font-family: calibri;
+  font-weight: bold;
+  color: rgba(236, 211, 100, 0.986);
+  text-shadow: 2px 2px 8px black;
+}
